@@ -1,0 +1,212 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+img {
+  margin: 0 auto;
+  padding-top: 20px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+#profile {
+  float: left; 
+  width: 350px;
+  height: 600px;
+  background-color: rgb(236, 140, 156);
+  border-radius: 15px 0 0 15px;
+}
+
+.under1 {
+  position: absolute;
+  left: 370px;
+  margin: 0 auto;
+}
+
+.under2 {
+  position: absolute;
+  top: 180px;
+  left: 340px;
+  margin: 0 auto;
+}
+
+.output {
+  position: relative;
+  top: 70px;
+  left: 8px;  
+  width: 270px;
+  height: 360px;
+  margin: 0 auto;
+  overflow: auto;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track .output {
+  background: rgb(236, 140, 156);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb .output {
+  background: rgb(236, 140, 156);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #fff;
+}
+
+
+.space1 {
+  /* position: absolute; */
+  width: 250px;
+  height: 100px;
+  border-radius: 10px;
+  background-color: #fff;
+  margin-top: 20px;
+  left: 320px;
+  top: 225px;
+  clear: both;
+  color: #000000;
+}
+
+.space2 {
+  position: absolute;
+  width: 250px;
+  height: 100px;
+  border-radius: 10px;
+  background-color: #fff;
+  margin-top: 20px;
+  left: 320px;
+  top: 345px;
+  clear: both;
+}
+
+.space3 {
+  position: absolute;
+  width: 250px;
+  height: 100px;
+  border-radius: 10px;
+  background-color: #fff;
+  margin-top: 20px;
+  left: 320px;
+  top: 475px;
+  clear: both;
+}
+
+#sidebar {
+  float: right;
+  width: 400px;
+  height: 600px;
+  background-color: #fff;
+  border-radius: 0 15px 15px 0;
+}
+
+#topsidebar {  
+  position: relative;
+  left: 1px;  
+  width: 300px;
+  height: 100px;
+  margin: 0 auto;
+}
+
+h4 {
+  color: #ff0000;
+  margin: 0 auto;
+}
+
+h5 {
+  font-size: 13px;
+  color: gray;
+  margin: 0 auto;
+}
+
+h6 {
+  color: #000000;  
+  position: relative;
+  left: 60px;  
+}
+
+#formpage {
+  width: 300px;
+  height: 80px;
+  position: absolute;
+  right: 360px;
+}
+
+.group {
+  margin-bottom: 0px !important;
+  margin-top: 0px !important;
+  font-size: 15px;
+  border-bottom: 1px solid gray;
+  transition: 5s;
+  left: 6px;
+}
+
+.topgroup {
+  position: relative;
+  left: 50px;
+}
+
+i {
+  color:gray;
+  margin: 0 auto;
+}
+
+#greaterthan {
+  position: relative;
+  top: 1px;
+  left: 5px;
+  color: #fff !important;
+  font-size: 23px;
+  font-weight: 0.3px;
+}
+
+#button { 
+  position: relative;
+  left: 50px;
+  margin-top: 15px;
+}
+
+.buttonToolbar {  
+  position: relative;
+  left: 60px;
+}
+.bottomgroup { 
+  position: relative;
+  left: 50px;
+}
