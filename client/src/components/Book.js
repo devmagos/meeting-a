@@ -49,9 +49,9 @@ submitHandler = (e) => {
     render(){
       const {name, subject, location, userFrom, userTo, value} = this.state
     return (
-        <div className='Container'>
+        <div className="flex-container-overall">
             <div className='Row'>
-                <div className='Col md={4}' id='profile'>
+                <div className='flex-container' id='profile'>
                     <Row><img src={sefia} alt="sefia" /></Row>   
                     <Row><h3 className='under1'>Joanne</h3></Row>
                     <Row><h6 className='under2'>Upcoming meetings</h6></Row>

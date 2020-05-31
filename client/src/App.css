@@ -210,3 +210,16 @@ i {
   position: relative;
   left: 50px;
 }
+.flex-container-overall {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 37.5em;
+}
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
